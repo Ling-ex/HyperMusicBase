@@ -15,24 +15,24 @@ MUST_JOIN = getenv("MUST_JOIN", "kontenfilm")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Riizzvbss")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ҡʏɴλɴ ꭙ ꝛᴏʙᴏᴛ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Hʏᴘᴇʀ Aꜱꜱɪꜱᴛᴀɴᴛ🇮🇩")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "951454060").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1947740506").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Onlymeriz/KynanMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Ling-ex/HyperMusicBase")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kontenfilm")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/kynansupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/storyQi")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HyperSupportQ")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "50000000"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "50000000"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5400"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -57,14 +57,14 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "50000000"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5400"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 
 CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "50"))
 
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5000000000"))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "50000000000"))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5400"))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5400"))
 # https://www.gbmb.org/mb-to-bytes
 
 STRING1 = getenv("STRING_SESSION", None)
@@ -85,11 +85,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b5fa050775543872ae0ec.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/f512fe565c479830ec47d.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/b5fa050775543872ae0ec.jpg",
+    "https://telegra.ph/file/f512fe565c479830ec47d.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.jpg"
@@ -139,9 +139,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/f512fe565c479830ec47d.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/b5fa050775543872ae0ec.jpg"
+            START_IMG_URL = "https://telegra.ph/file/f512fe565c479830ec47d.jpg"
