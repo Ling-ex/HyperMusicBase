@@ -2,7 +2,7 @@ import time
 
 import psutil
 
-from geezram.misc import _boot_
+from Hyper.misc import _boot_
 
 from .formatters import get_readable_time
 
