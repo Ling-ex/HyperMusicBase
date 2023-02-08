@@ -1,8 +1,8 @@
-from geezram.core.bot import geezramBot
-from geezram.core.dir import dirr
-from geezram.core.git import git
-from geezram.core.userbot import Userbot
-from geezram.misc import dbb, heroku, sudo
+from Hyper.core.bot import HyperBot
+from Hyper.core.dir import dirr
+from Hyper.core.git import git
+from Hyper.core.userbot import Userbot
+from Hyper.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = geezramBot()
+app = HyperBot()
 
 # Assistant Client
 userbot = Userbot()
