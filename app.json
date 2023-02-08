@@ -1,12 +1,12 @@
 {
-    "name": "musik izzy",
+    "name": "Hyper Music",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "logo": "https://telegra.ph/file/7eff872759b4d8df175d8.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "geezram",
+    "hyper",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "Geez | RAM",
+        "value": "Hyper",
         "required": true
       },
       "OWNER_ID": {
